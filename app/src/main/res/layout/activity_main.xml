@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eid"
+    android:paddingStart="3dp"
+    tools:context="alert.example.com.alertdialog.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="60dp"
+        android:text="ঈদ উল ফিতর"
+        android:textColor="#FB6542"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonAzha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignEnd="@+id/scrollView2"
+        android:layout_alignRight="@+id/scrollView2"
+        android:text="ঈদ উল আযহা"
+        android:textColor="#FB6542"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView5"
+        android:layout_marginTop="107dp"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button"
+            android:layout_alignStart="@+id/button"
+            android:layout_below="@+id/button"
+            android:orientation="vertical">
+
+            <Button
+            android:id="@+id/buttonArtho"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button2"
+            android:layout_alignRight="@+id/button2"
+            android:layout_below="@+id/button"
+            android:layout_marginTop="8dp"
+            android:background="#07fb6d"
+            android:layout_toRightOf="@+id/linearLayout2"
+            android:text="ঈদ অর্থ"
+            android:textColor="#FF420E"
+            android:textStyle="bold"
+            android:textSize="28sp"/>
+
+            <Button
+                android:id="@+id/buttonProcholon"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button2"
+                android:layout_alignRight="@+id/button2"
+                android:layout_below="@+id/button"
+                android:layout_toRightOf="@+id/linearLayout2"
+                android:text="ঈদের প্রচলন "
+                android:background="#1ec568"
+                android:textColor="#375E97"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hukum"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button2"
+                android:layout_alignRight="@+id/button2"
+                android:layout_below="@+id/button"
+                android:layout_toRightOf="@+id/linearLayout2"
+                android:text="ঈদের সালাতের হুকুম "
+                android:background="#44ce81"
+                android:textColor="#A43820"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/koronio"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button2"
+                android:layout_alignRight="@+id/button2"
+                android:layout_below="@+id/button"
+                android:layout_toRightOf="@+id/linearLayout2"
+                android:text="ঈদের সালাতের আগে করণীয়"
+                android:textColor="#FF420E"
+                android:background="#3e9d69"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pushak"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button2"
+                android:layout_alignRight="@+id/button2"
+                android:layout_below="@+id/button"
+                android:layout_toRightOf="@+id/linearLayout2"
+                android:text="ঈদের দিনের পোশাকের সুন্নাত"
+                android:background="#78d49f"
+                android:textColor="#375E97"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/KAPOR"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button2"
+                android:layout_alignRight="@+id/button2"
+                android:layout_below="@+id/button"
+                android:layout_toRightOf="@+id/linearLayout2"
+                android:text="রেশমী কাপড় পরার হুকুম সম্মন্ধে"
+                android:textColor="#A43820"
+                android:background="#cce8e7"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/KHABAR"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button2"
+                android:layout_alignRight="@+id/button2"
+                android:layout_below="@+id/button"
+                android:layout_toRightOf="@+id/linearLayout2"
+                android:text="খাবার গ্রহণের সুন্নাত সম্মন্ধিয়"
+                android:textColor="#FF420E"
+                android:background="#97f7c0"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/SALAT"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button2"
+                android:layout_alignRight="@+id/button2"
+                android:layout_below="@+id/button"
+                android:layout_marginTop="1dp"
+                android:layout_toRightOf="@+id/linearLayout2"
+                android:text="ঈদের সালাত "
+                android:background="#b5ffd4"
+                android:textColor="#375E97"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                />
+
+            <Button
+                android:id="@+id/TAKBIR"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button2"
+                android:layout_alignRight="@+id/button2"
+                android:layout_below="@+id/button"
+                android:layout_marginTop="1dp"
+                android:layout_toRightOf="@+id/linearLayout2"
+                android:text="ঈদের দিনের তাকবীর"
+                android:background="#95f7c1"
+                android:textColor="#A43820"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                />
+
+            <Button
+                android:id="@+id/NIYOMm"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button2"
+                android:layout_alignRight="@+id/button2"
+                android:layout_below="@+id/button"
+                android:layout_toRightOf="@+id/linearLayout2"
+                android:text="ঈদের সালাত পড়ার নিয়ম"
+                android:background="#c9fcdf"
+                android:textColor="#FF420E"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/MASAYEL"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button2"
+                android:layout_alignRight="@+id/button2"
+                android:layout_below="@+id/button"
+                android:layout_marginTop="1dp"
+                android:layout_toRightOf="@+id/linearLayout2"
+                android:text="ঈদের নামাজের কিছু মাসায়িল"
+                android:background="#ebf2ee"
+                android:textColor="#375E97"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                />
+
+            <Button
+                android:id="@+id/KURBANI"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button2"
+                android:layout_alignRight="@+id/button2"
+                android:layout_below="@+id/button"
+                android:layout_marginTop="1dp"
+                android:layout_toRightOf="@+id/linearLayout2"
+                android:text="কুরবানী কার উপর ওয়াজিব"
+                android:background="#aecbba"
+                android:textColor="#A43820"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                />
+
+
+            <Button
+                android:id="@+id/NIYOMKURBANI"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button2"
+                android:layout_alignRight="@+id/button2"
+                android:layout_below="@+id/button"
+                android:layout_toRightOf="@+id/linearLayout2"
+                android:text="কী পরিমাণ টাকা থাকলে কুরবানী ওয়াজিব"
+                android:background="#e6f4f7"
+                android:textColor="#FF420E"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/MASLA"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button2"
+                android:layout_alignRight="@+id/button2"
+                android:layout_below="@+id/button"
+                android:layout_marginTop="1dp"
+                android:layout_toRightOf="@+id/linearLayout2"
+                android:text="কিছু গুরুত্বপূর্ণ  মাসায়ালা"
+                android:background="#c3e2d6"
+                android:textColor="#375E97"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                />
+
+            <Button
+                android:id="@+id/Q"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button2"
+                android:layout_alignRight="@+id/button2"
+                android:layout_below="@+id/button"
+                android:layout_marginTop="1dp"
+                android:layout_toRightOf="@+id/linearLayout2"
+                android:text="কিছু প্রশ্ন-উত্তর"
+                android:background="#d1d8d4"
+                android:textColor="#A43820"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonAzha"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="63dp"
+        android:layout_marginTop="10dp"
+        android:layout_toStartOf="@+id/button2"
+        android:background="@drawable/bismillah" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="May your homes and hearts be filled with the joyful sprit of eid.Laugh,live and love.''EID MUBARAK ''"
+        android:gravity="center"
+        android:background="#060606"
+        android:textColor="#f4f407"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+
+</RelativeLayout>
